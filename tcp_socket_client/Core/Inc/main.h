@@ -39,7 +39,6 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -63,6 +62,14 @@ void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
 extern void initialise_monitor_handles();
+
+
+void udp_led_on_handler(char led_num);
+void udp_led_off_handler(char led_num);
+
+void udp_led_toggle_handler(char led_num);
+
+GPIO_PinState udp_led_status_handler(char led_num);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
@@ -178,6 +185,7 @@ extern void initialise_monitor_handles();
 #define USE_TCP_CLIENT_PRINTF 0
 #define USE_TCP_SERVER_PRINTF 0
 #define USE_HTTP_DEBUG_PRINTF 0
+#define USE_UDP_SERVER_PRINTF 1
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

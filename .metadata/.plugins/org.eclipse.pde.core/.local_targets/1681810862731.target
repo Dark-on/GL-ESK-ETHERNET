@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target name="Running Platform">
+	<locations>
+		<location configuration="/home/user1/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_1.12.0_139061330_linux_gtk_x86_64/configuration/" path="${eclipse_home}" type="Profile"/>
+	</locations>
+	<environment>
+		<arch>x86_64</arch>
+		<os>linux</os>
+		<ws>gtk</ws>
+		<nl>en_GB</nl>
+	</environment>
+</target>

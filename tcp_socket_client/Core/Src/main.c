@@ -53,8 +53,9 @@
 UART_HandleTypeDef huart3;
 
 osThreadId defaultTaskHandle;
-osThreadId tcpClientTaskHandle;
+osThreadId udpServerTaskHandle;
 osThreadId tcpServerTaskHandle;
+osThreadId tcpClientTaskHandle;
 /* USER CODE BEGIN PV */
 //DHT_sensor dht11 = {DHT11_IO_GPIO_Port, DHT11_IO_Pin, DHT11, 0};
 /* USER CODE END PV */
@@ -64,8 +65,9 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART3_UART_Init(void);
 void StartDefaultTask(void const * argument);
-extern void StartTcpClientTask(void const * argument);
+extern void StartUdpServerTask(void const * argument);
 extern void StartTcpServerTask(void const * argument);
+extern void StartTcpClientTask(void const * argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -233,6 +235,41 @@ void http_led_off_handler(bool LED[4])
 	}
 }
 #endif/* USE_SOLUTION */
+
+#ifdef USE_UDP_SERVER
+
+
+uint16_t find_pin_for_led(char led_num){
+	switch (led_num){
+	case '3': // ORANGE
+		return GPIO_PIN_13;
+	case '4': // GREEN
+		return GPIO_PIN_12;
+	case '5': // RED
+		return GPIO_PIN_14;
+	case '6': // BLUE
+		return GPIO_PIN_15;
+	}
+	return GPIO_PIN_15;
+}
+
+void udp_led_on_handler(char led_num){
+	HAL_GPIO_WritePin(GPIOD, find_pin_for_led(led_num), GPIO_PIN_SET);
+}
+
+void udp_led_off_handler(char led_num){
+	HAL_GPIO_WritePin(GPIOD, find_pin_for_led(led_num), GPIO_PIN_RESET);
+}
+
+void udp_led_toggle_handler(char led_num){
+	HAL_GPIO_TogglePin(GPIOD, find_pin_for_led(led_num));
+}
+
+GPIO_PinState udp_led_status_handler(char led_num){
+	return HAL_GPIO_ReadPin(GPIOD, find_pin_for_led(led_num));
+}
+#endif/* USE_UDP_SERVER */
+
 /* USER CODE END 0 */
 
 /**
@@ -325,13 +362,17 @@ int main(void)
   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 256);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
-  /* definition and creation of tcpClientTask */
-  osThreadDef(tcpClientTask, StartTcpClientTask, osPriorityNormal, 0, 2048);
-  tcpClientTaskHandle = osThreadCreate(osThread(tcpClientTask), NULL);
+  /* definition and creation of udpServerTask */
+  osThreadDef(udpServerTask, StartUdpServerTask, osPriorityIdle, 0, 2048);
+  udpServerTaskHandle = osThreadCreate(osThread(udpServerTask), NULL);
 
   /* definition and creation of tcpServerTask */
-  osThreadDef(tcpServerTask, StartTcpServerTask, osPriorityNormal, 0, 2048);
+  osThreadDef(tcpServerTask, StartTcpServerTask, osPriorityIdle, 0, 2048);
   tcpServerTaskHandle = osThreadCreate(osThread(tcpServerTask), NULL);
+
+  /* definition and creation of tcpClientTask */
+  osThreadDef(tcpClientTask, StartTcpClientTask, osPriorityIdle, 0, 2048);
+  tcpClientTaskHandle = osThreadCreate(osThread(tcpClientTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -635,7 +676,7 @@ void StartDefaultTask(void const * argument)
 		  lcd_puts(msg);
 	  }
 
-	  BSP_LED_Toggle(BLUE);
+//	  BSP_LED_Toggle(BLUE);
 	  osDelay(1000);
   }
   /* USER CODE END 5 */

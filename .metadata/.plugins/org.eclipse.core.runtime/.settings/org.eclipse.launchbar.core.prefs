@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:tcp_socket_client,org.eclipse.launchbar.core.descriptorType.default\:udp_server_ttcn_test_suit-src-udp_server_test_suit.cfg-Parallel
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:tcp_socket_client/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:tcp_socket_client/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:udp_server_ttcn_test_suit-src-udp_server_test_suit.cfg-Parallel/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:udp_server_ttcn_test_suit-src-udp_server_test_suit.cfg-Parallel/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

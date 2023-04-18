@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.titan.executor.executors.mctr.cli.LaunchConfigurationDelegate">
+    <listAttribute key="availableControlParts">
+        <listEntry value="udp_server_test_suit.control"/>
+    </listAttribute>
+    <listAttribute key="availableTestcases"/>
+    <stringAttribute key="lastTimeSelection" value="udp_server_test_suit.control"/>
+    <intAttribute key="lastTimeSelectionTime" value="1"/>
+    <intAttribute key="lastTimeSelectionType" value="3"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/udp_server_ttcn_test_suit"/>
+        <listEntry value="/udp_server_ttcn_test_suit/src/udp_server_test_suit.cfg"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.titan.executor.configurationFilePath" value="src/udp_server_test_suit.cfg"/>
+    <stringAttribute key="org.eclipse.titan.executor.executableFilePath" value="bin/udp_server_ttcn_test_suit"/>
+    <booleanAttribute key="org.eclipse.titan.executor.executeConfigurationFileOnLaunch" value="true"/>
+    <listAttribute key="org.eclipse.titan.executor.hostCommands">
+        <listEntry value="cd %Workingdirectory; %Executable %MCHost %MCPort"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.titan.executor.hostExecutables">
+        <listEntry value="bin/udp_server_ttcn_test_suit"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.titan.executor.hostNames">
+        <listEntry value="localhost"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.titan.executor.hostWorkingDirectories">
+        <listEntry value="bin"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.titan.executor.projectName" value="udp_server_ttcn_test_suit"/>
+    <stringAttribute key="org.eclipse.titan.executor.workingdirectoryPath" value="bin"/>
+</launchConfiguration>

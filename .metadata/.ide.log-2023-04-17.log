@@ -1,0 +1,128 @@
+2023-04-18 00:01:08,559 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2023-04-18 00:01:08,598 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2023-04-18 00:01:13,839 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-04-18 00:01:13,839 [WARN] TasksAndQueuesTab:763 - 256 128
+2023-04-18 00:01:13,843 [WARN] TasksAndQueuesTab:775 - max value is: 20000.0
+2023-04-18 00:01:13,843 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-04-18 00:01:13,844 [WARN] TasksAndQueuesTab:763 - 2048 128
+2023-04-18 00:01:13,844 [WARN] TasksAndQueuesTab:775 - max value is: 20000.0
+2023-04-18 00:01:13,845 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-04-18 00:01:13,845 [WARN] TasksAndQueuesTab:763 - 2048 128
+2023-04-18 00:01:13,845 [WARN] TasksAndQueuesTab:775 - max value is: 20000.0
+2023-04-18 00:01:13,845 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-04-18 00:01:13,845 [WARN] TasksAndQueuesTab:763 - 2048 128
+2023-04-18 00:01:13,845 [WARN] TasksAndQueuesTab:775 - max value is: 20000.0
+2023-04-18 00:01:13,953 [WARN] BspModel:443 - BSP dependency skipped because of component: name='LAN8742', api='BSP_COMPONENT_DRIVER'
+2023-04-18 00:01:16,824 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2023-04-18 00:01:16,824 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2023-04-18 00:01:21,491 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-04-18 00:01:21,491 [WARN] TasksAndQueuesTab:763 - 256 128
+2023-04-18 00:01:21,492 [WARN] TasksAndQueuesTab:775 - max value is: 20000.0
+2023-04-18 00:01:21,492 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-04-18 00:01:21,492 [WARN] TasksAndQueuesTab:763 - 2048 128
+2023-04-18 00:01:21,492 [WARN] TasksAndQueuesTab:775 - max value is: 20000.0
+2023-04-18 00:01:21,492 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-04-18 00:01:21,492 [WARN] TasksAndQueuesTab:763 - 2048 128
+2023-04-18 00:01:21,492 [WARN] TasksAndQueuesTab:775 - max value is: 20000.0
+2023-04-18 00:01:21,493 [INFO] TasksAndQueuesTab:757 - Dynamic
+2023-04-18 00:01:21,493 [WARN] TasksAndQueuesTab:763 - 2048 128
+2023-04-18 00:01:21,493 [WARN] TasksAndQueuesTab:775 - max value is: 20000.0
+2023-04-18 00:01:21,564 [WARN] BspModel:443 - BSP dependency skipped because of component: name='LAN8742', api='BSP_COMPONENT_DRIVER'
+2023-04-18 00:01:25,869 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 548785504 Bytes (881852416)
+2023-04-18 00:01:25,989 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-04-18 00:01:25,990 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-04-18 00:01:25,991 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-04-18 00:01:29,200 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 577530168 Bytes (881852416)
+2023-04-18 00:01:29,302 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-04-18 00:01:29,303 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-04-18 00:01:29,304 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-04-18 00:01:30,149 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 645323064 Bytes (881852416)
+2023-04-18 00:01:33,817 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2023-04-18 00:01:33,819 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-18 00:01:33,819 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-18 00:01:33,819 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-18 00:01:33,819 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LWIP
+2023-04-18 00:01:33,819 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-18 00:01:33,820 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-18 00:01:33,820 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ETH
+2023-04-18 00:01:33,824 [INFO] CodeGenerator:793 - code generatio: config db path: /home/user1/.stm32cubemx/databases/DB.6.0.21/db/
+2023-04-18 00:01:34,594 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/license.tmp_save
+2023-04-18 00:01:34,764 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/license.tmp
+2023-04-18 00:01:34,875 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/gpio.tmp_save
+2023-04-18 00:01:35,482 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/gpio.tmp
+2023-04-18 00:01:35,943 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/eth_vars.tmp_save
+2023-04-18 00:01:36,124 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/eth_vars.tmp
+2023-04-18 00:01:36,129 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/eth_inc.tmp_save
+2023-04-18 00:01:36,254 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/eth_inc.tmp
+2023-04-18 00:01:36,256 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/eth_HalInit.tmp_save
+2023-04-18 00:01:36,462 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/eth_HalInit.tmp
+2023-04-18 00:01:36,488 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/eth_Msp.tmp_save
+2023-04-18 00:01:36,694 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/eth_Msp.tmp
+2023-04-18 00:01:37,471 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-04-18 00:01:37,485 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_inc.tmp_save
+2023-04-18 00:01:37,602 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_inc.tmp
+2023-04-18 00:01:37,607 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_vars.tmp_save
+2023-04-18 00:01:37,705 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_vars.tmp
+2023-04-18 00:01:37,710 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_pfp.tmp_save
+2023-04-18 00:01:37,792 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_pfp.tmp
+2023-04-18 00:01:37,796 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-04-18 00:01:37,936 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_obj_creat.tmp
+2023-04-18 00:01:37,940 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-04-18 00:01:38,050 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_kernelStart.tmp
+2023-04-18 00:01:38,056 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_default_thread.tmp_save
+2023-04-18 00:01:38,328 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_default_thread.tmp
+2023-04-18 00:01:38,334 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_threads.tmp_save
+2023-04-18 00:01:38,528 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_threads.tmp
+2023-04-18 00:01:38,548 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-04-18 00:01:38,572 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-04-18 00:01:38,587 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_inc.tmp_save
+2023-04-18 00:01:38,671 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_inc.tmp
+2023-04-18 00:01:38,685 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_vars.tmp_save
+2023-04-18 00:01:38,920 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_vars.tmp
+2023-04-18 00:01:38,922 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_pfp.tmp_save
+2023-04-18 00:01:39,032 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_pfp.tmp
+2023-04-18 00:01:39,035 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_obj_creat.tmp_save
+2023-04-18 00:01:39,131 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_obj_creat.tmp
+2023-04-18 00:01:39,134 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_kernelStart.tmp_save
+2023-04-18 00:01:39,243 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_kernelStart.tmp
+2023-04-18 00:01:39,251 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_default_thread.tmp_save
+2023-04-18 00:01:39,369 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_default_thread.tmp
+2023-04-18 00:01:39,373 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_threads.tmp_save
+2023-04-18 00:01:39,488 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/rtos_threads.tmp
+2023-04-18 00:01:39,492 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Inc/FreeRTOSConfig.h_save
+2023-04-18 00:01:39,645 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Inc/FreeRTOSConfig.h
+2023-04-18 00:01:39,660 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/freertos.c_save
+2023-04-18 00:01:39,791 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/freertos.c
+2023-04-18 00:01:39,809 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-04-18 00:01:39,845 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/App/lwip.c_save
+2023-04-18 00:01:40,012 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/App/lwip.c
+2023-04-18 00:01:40,021 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/App/lwip.h_save
+2023-04-18 00:01:40,180 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/App/lwip.h
+2023-04-18 00:01:40,195 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/Target/lwipopts.h_save
+2023-04-18 00:01:40,608 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/Target/lwipopts.h
+2023-04-18 00:01:40,619 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/Target/ethernetif.c_save
+2023-04-18 00:01:40,831 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/Target/ethernetif.c
+2023-04-18 00:01:40,840 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/Target/ethernetif.h_save
+2023-04-18 00:01:40,996 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/LWIP/Target/ethernetif.h
+2023-04-18 00:01:41,027 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/stm32f4xx_it.c_save
+2023-04-18 00:01:41,667 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/stm32f4xx_it.c
+2023-04-18 00:01:41,672 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Inc/stm32f4xx_it.h_save
+2023-04-18 00:01:41,742 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Inc/stm32f4xx_it.h
+2023-04-18 00:01:41,762 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/stm32f4xx_hal_msp.c_save
+2023-04-18 00:01:42,079 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/stm32f4xx_hal_msp.c
+2023-04-18 00:01:42,083 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/system.tmp_save
+2023-04-18 00:01:42,183 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/MXTmpFiles/system.tmp
+2023-04-18 00:01:42,191 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/stm32f4xx_hal_timebase_tim.c_save
+2023-04-18 00:01:42,311 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/stm32f4xx_hal_timebase_tim.c
+2023-04-18 00:01:42,330 [INFO] CodeEngine:311 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Inc/stm32f4xx_hal_conf.h_save
+2023-04-18 00:01:42,469 [INFO] CodeEngine:335 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Inc/stm32f4xx_hal_conf.h
+2023-04-18 00:01:42,531 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Inc/main.h_save
+2023-04-18 00:01:42,647 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Inc/main.h
+2023-04-18 00:01:42,664 [INFO] CodeEngine:255 - oldGeneratedFile, /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/main.c_save
+2023-04-18 00:01:43,050 [INFO] CodeEngine:279 - Generated code: /home/user1/Documents/EmbeddedBaseCamp/GL-ESK-ETHERNET/tcp_socket_client/Core/Src/main.c
+2023-04-18 00:01:45,635 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 678mS.
+2023-04-18 00:01:45,695 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-18 00:01:46,790 [INFO] ConfigFileManager:1483 - The Die is : DIE413
+2023-04-18 00:01:51,968 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 6274mS.
+2023-04-18 00:01:51,969 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-18 00:01:51,972 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
